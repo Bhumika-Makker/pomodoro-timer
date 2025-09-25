@@ -129,13 +129,13 @@ function start()
             countdown_min_heading.innerText=convert_to_twoDigit(brk_time-1);
             if(countdown_sec==0)
             {
-                countdown_sec=50;
+                countdown_sec=60;
                 brk_time--;
             }
         }
         else
         {
-            countdown_sec=50;
+            countdown_sec=59;
             ses_time=session_time;
             brk_time=break_time;
             document.getElementById("head").style.color="blue";
