@@ -4,7 +4,7 @@ var break_time_para=document.getElementById("break_time_para");
 var countdown_min_heading=document.getElementById("countdown_min_heading");
 var countdown_sec_heading=document.getElementById("countdown_sec_heading");
 
-console.log("Hello From A")
+console.log("Hello from A and B");
 
 //adding event listeners on + - buttons
 var session_plus=document.getElementById("session_plus");
